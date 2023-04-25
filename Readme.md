@@ -1,7 +1,7 @@
 ### PDLayout.swift
 
-簡化設定 AutoLayout 步驟
-透過預先整理好的項目，更能簡易設定 AutoLayout
+簡化設定AutoLayout 步驟
+不只設定更加便利，更讓您的代碼容易閱讀
 
 ***
 
