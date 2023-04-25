@@ -19,7 +19,7 @@ label.heightAnchor.constraint(equalToConstant: 50).isActive = true;
 
 ***
 
-####簡化後
+#### 簡化後
 
 ```
 let label = UILabel();
@@ -29,5 +29,5 @@ label.PDLayout([
     Leq(L: view.leftAnchor, 20),
     Req(T: view.rightAnchor, -20),
     Heq(50)
-])
+]);
 ```
