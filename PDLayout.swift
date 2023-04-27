@@ -38,10 +38,12 @@ extension UIView {
 	var fl: NSLayoutXAxisAnchor { get { return self.leftAnchor } };
 	var fb: NSLayoutYAxisAnchor { get { return self.bottomAnchor } };
 	var fr: NSLayoutXAxisAnchor { get { return self.rightAnchor } };
-	var fw: NSLayoutDimension   { get { return self.widthAnchor } };
-	var fh: NSLayoutDimension   { get { return self.heightAnchor } };
-		
-	func autolayout(_ bool: Bool) 		    -> UIView { self.translatesAutoresizingMaskIntoConstraints = !bool; return self; };
+	var fw: NSLayoutDimension { get { return self.widthAnchor } };
+	var fh: NSLayoutDimension { get { return self.heightAnchor } };
+	
+	func end() {};
+	func autolayout(_ bool: Bool) -> UIView { self.translatesAutoresizingMaskIntoConstraints = !bool; return self; };
+	
 	func Xeq(X target: UIView,_ value: CGFloat) -> UIView { self.autolayout(true).fx.eq(target.fx, value).isActive = true; return self; };
 	func Xeq(L target: UIView,_ value: CGFloat) -> UIView { self.autolayout(true).fx.eq(target.fl, value).isActive = true; return self; };
 	func Xeq(R target: UIView,_ value: CGFloat) -> UIView { self.autolayout(true).fx.eq(target.fr, value).isActive = true; return self; };
@@ -64,10 +66,10 @@ extension UIView {
 	
 	func Weq(W target: UIView,_ value: CGFloat) -> UIView { self.autolayout(true).fw.eq(target.fw, value).isActive = true; return self; };
 	func Weq(H target: UIView,_ value: CGFloat) -> UIView { self.autolayout(true).fw.eq(target.fh, value).isActive = true; return self; };
-	func Weq(_ value: CGFloat) 		    -> UIView { self.autolayout(true).fw.eq(value).isActive = true; return self; };
+	func Weq(_ value: CGFloat) -> UIView { self.autolayout(true).fw.eq(value).isActive = true; return self; };
 	
 	func Heq(W target: UIView,_ value: CGFloat) -> UIView { self.autolayout(true).fh.eq(target.fw, value).isActive = true; return self; };
 	func Heq(H target: UIView,_ value: CGFloat) -> UIView { self.autolayout(true).fh.eq(target.fh, value).isActive = true; return self; };
-	func Heq(_ value: CGFloat) 		    -> UIView { self.autolayout(true).fh.eq(value).isActive = true; return self; };	
+	func Heq(_ value: CGFloat) -> UIView { self.autolayout(true).fh.eq(value).isActive = true; return self; };	
 };
 
