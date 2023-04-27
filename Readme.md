@@ -24,10 +24,10 @@ label.heightAnchor.constraint(equalToConstant: 50).isActive = true;
 ```
 let label = UILabel();
 label.text = "測試文字";
-label.PDLayout([
-    Teq(T: view, 20),
-    Leq(L: view, 20),
-    Req(T: view, -20),
-    Heq(50)
-]);
+label.
+    .Teq(T: view, 20)
+    .Leq(L: view, 20)
+    .Req(T: view, -20)
+    .Heq(50)
+    .end()
 ```
