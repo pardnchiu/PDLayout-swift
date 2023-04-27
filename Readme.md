@@ -24,7 +24,7 @@ label.heightAnchor.constraint(equalToConstant: 50).isActive = true;
 ```
 let label = UILabel();
 label.text = "測試文字";
-label.
+label
     .Teq(T: view, 20)
     .Leq(L: view, 20)
     .Req(T: view, -20)
