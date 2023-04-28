@@ -27,7 +27,7 @@ label.text = "測試文字";
 label
     .Teq(T: view, 20)
     .Leq(L: view, 20)
-    .Req(T: view, -20)
+    .Req(R: view, -20)
     .Heq(50)
     .end()
 ```
