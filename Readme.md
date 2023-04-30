@@ -12,7 +12,7 @@
 let label = UILabel();
 label.text = "測試文字";
 label.translatesAutoresizingMaskIntoConstraints = false;
-label.topAnchor.constraint(equalTo: view.topAnchor, constant: 20).isActive = true;
+label.topAnchor.constraint(equalTo: view.topAnchor).isActive = true;
 label.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20).isActive = true;
 label.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -20).isActive = true;
 label.heightAnchor.constraint(equalToConstant: 50).isActive = true;
@@ -26,7 +26,7 @@ label.heightAnchor.constraint(equalToConstant: 50).isActive = true;
 let label = UILabel();
 label.text = "測試文字";
 label
-    .Teq(T: view, 20)
+    .Teq(T: view)
     .Leq(L: view, 20)
     .Req(R: view, -20)
     .Heq(50)
