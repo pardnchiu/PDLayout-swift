@@ -11,6 +11,8 @@
 ```
 let label = UILabel();
 label.text = "測試文字";
+view.addSubview(label);
+
 label.translatesAutoresizingMaskIntoConstraints = false;
 label.topAnchor.constraint(equalTo: view.topAnchor).isActive = true;
 label.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20).isActive = true;
@@ -25,6 +27,8 @@ label.heightAnchor.constraint(equalToConstant: 50).isActive = true;
 ```
 let label = UILabel();
 label.text = "測試文字";
+view.addSubview(label);
+
 label
     .Teq(T: view)
     .Leq(L: view, 20)
