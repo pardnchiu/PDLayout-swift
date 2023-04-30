@@ -7,6 +7,23 @@
 ***
 
 ```
+X -> CenterXAnchor
+Y -> CenterYAnchor
+T -> TopAnchor
+L -> LeftAnchor
+B -> BottomAnchor
+R -> RightAnchor
+W -> WidthAnchor
+H -> HeightAnchor
+
+eq -> Equal
+ge -> GreaterThanOrEqual
+le -> LessThanOrEqual
+```
+
+***
+
+```
 // 簡化前
 let label = UILabel();
 label.text = "測試文字";
