@@ -1,4 +1,4 @@
-### PDLayout.swift
+# PDLayout
 
 簡化設定AutoLayout 步驟
 
@@ -6,9 +6,8 @@
 
 ***
 
-#### 簡化前
-
 ```
+// 簡化前
 let label = UILabel();
 label.text = "測試文字";
 view.addSubview(label);
@@ -22,9 +21,8 @@ label.heightAnchor.constraint(equalToConstant: 50).isActive = true;
 
 ***
 
-#### 簡化後
-
 ```
+// 簡化後
 let label = UILabel();
 label.text = "測試文字";
 view.addSubview(label);
