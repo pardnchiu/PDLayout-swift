@@ -89,3 +89,7 @@ label2
 
 ![](./demo.png)
 
+***
+
+Copyright (c) 2023 [Pardn Ltd 帕登國際有限公司](https://joball.tw/@pardnltd)
+
