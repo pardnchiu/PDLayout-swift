@@ -1,13 +1,13 @@
 # PDLayout
 
-簡化設定AutoLayout 步驟
+簡化Swift 設定AutoLayout 步驟
 
-不只設定更加便利，更讓您的代碼容易閱讀
+讓設定更加便利，更讓您的代碼容易閱讀
 
 ***
 
-```swift
-// 可用參數
+```
+可用參數
 
 X -> CenterXAnchor
 Y -> CenterYAnchor
@@ -27,6 +27,7 @@ le -> LessThanOrEqual
 
 ```swift
 // 簡化前
+
 let label1 = UILabel();
 label1.text = "Label1";
 label1.textAlignment = .center;
@@ -56,6 +57,7 @@ label2.heightAnchor.constraint(equalToConstant: 100).isActive = true;
 
 ```swift
 // 簡化後
+
 let label1 = UILabel();
 label1.text = "Label1";
 label1.textAlignment = .center;
