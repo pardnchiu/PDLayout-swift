@@ -87,5 +87,5 @@ label2
 
 ***
 
-![](./image/demo.png)
+![](./demo.png)
 
