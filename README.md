@@ -6,7 +6,7 @@
 
 ***
 
-```
+```swift
 // 可用參數
 
 X -> CenterXAnchor
@@ -25,7 +25,7 @@ le -> LessThanOrEqual
 
 ***
 
-```
+```swift
 // 簡化前
 let label1 = UILabel();
 label1.text = "Label1";
@@ -54,7 +54,7 @@ label2.heightAnchor.constraint(equalToConstant: 100).isActive = true;
 
 ***
 
-```
+```swift
 // 簡化後
 let label1 = UILabel();
 label1.text = "Label1";
